@@ -39,7 +39,7 @@ When we analyze an algorithm, we look at three scenarios. Think of this like you
 
 **Notation:** `Ω(1)` (Omega of 1)
 
-> 💡 **AlgoMaster Note:** We rarely care about this. You don't engineer a bridge assuming there will be no wind.
+> 💡 **Note:** We rarely care about this. You don't engineer a bridge assuming there will be no wind.
 
 ### 🟡 Θ (Theta) - The Average Case
 **The Realistic Scenario** 📊
@@ -183,6 +183,76 @@ def tricky_loop(n):
 **Complexity:** `O(1)` (Constant) ⚡
 
 > 💡 **Note:** In pure math, constants are dropped.
+
+---
+
+## 4. 🧠 Quiz
+
+> **🎯 Challenge:** To prove you are ready for Module 2, determine the **Worst Case Time Complexity** `O(?)` for the following scenarios.
+
+---
+
+### 🧦 **Question 1: The Sock Hunt**
+You have a box of mixed-up socks (**N** socks). You pull them out one by one until you find the red one. What is the complexity?
+
+**🤔 Think:** What's the worst-case scenario?
+
+---
+
+### 🔄 **Question 2: Double Loop Analysis**
+Determine the Big O of this code:
+
+```python
+def question_two(n):
+    count = 0
+    # Loop 1
+    for i in range(n):
+        count += 1
+    
+    # Loop 2
+    for j in range(n):
+        count += 1
+    
+    return count
+```
+
+**🤔 Think:** Are these loops nested or sequential?
+
+---
+
+### 📈 **Question 3: The Doubling Pattern**
+Determine the Big O of this code:
+
+```python
+def question_three(n):
+    i = 1
+    while i < n:
+        print(i)
+        i = i * 2  # Notice we are multiplying, not adding!
+```
+
+**💡 Hint:** If N is 100, i goes: `1, 2, 4, 8, 16, 32, 64...` how many steps is that roughly?
+
+---
+
+### 💾 **Question 4: Memory Allocation**
+We create an algorithm that allocates a list (array) of size **N** to store student grades. What is the **Space Complexity**?
+
+**🤔 Think:** How much memory grows with input size?
+
+---
+
+### 🏆 **Answer Key** (Don't peek!)
+<details>
+<summary>Click to reveal answers</summary>
+
+1. **🧦 Sock Hunt:** `O(N)` - Worst case: red sock is last or not there
+2. **🔄 Double Loop:** `O(N)` - Sequential loops: N + N = 2N → O(N)
+3. **📈 Doubling Pattern:** `O(log N)` - Dividing problem in half each time
+4. **💾 Memory Allocation:** `O(N)` - Space grows linearly with input
+
+</details>
+
 
 ---
 
