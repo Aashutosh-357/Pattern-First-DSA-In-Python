@@ -9,7 +9,7 @@
 | Topic | Symbol | Why It Matters |
 |-------|--------|----------------|
 | **Modular Arithmetic** | `%` | Hash tables, circular arrays, cryptography |
-| **Bit Manipulation** | `&`, `|`, `^` | Ultra-fast operations, memory optimization |
+| **Bit Manipulation** | `&` `|` `^` | Ultra-fast operations, memory optimization |
 
 ---
 
@@ -69,10 +69,6 @@ next_index = (current_index + 1) % len(arr)
 ```
 
 > 💡 **Pro Tip:** This pattern appears in **sliding window**, **circular buffers**, and **round-robin** algorithms!
-
-***
-
----
 
 ## ⚡ Part B: Bit Manipulation (The Speed Demon)
 
@@ -134,10 +130,6 @@ print(find_unique([4, 1, 2, 1, 2]))  # Output: 4
 ```
 
 **Complexity:** Time O(N), Space O(1) 🚀
-
-***
-
----
 
 ## 🧪 Challenge Zone
 
