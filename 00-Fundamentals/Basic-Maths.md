@@ -9,7 +9,7 @@
 | Topic | Symbol | Why It Matters |
 |-------|--------|----------------|
 | **Modular Arithmetic** | `%` | Hash tables, circular arrays, cryptography |
-| **Bit Manipulation** | `&` `|` `^` | Ultra-fast operations, memory optimization |
+| **Bit Manipulation** | `&` `\|` `^` | Ultra-fast operations, memory optimization |
 
 ---
 
