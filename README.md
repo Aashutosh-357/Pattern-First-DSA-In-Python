@@ -1,4 +1,4 @@
-# 🥋 DSA Mastery with "Sensei Algo" (Python Edition)
+# 🥋 DSA Mastery (Python Edition)
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Learning%20in%20Progress-orange?style=for-the-badge)
@@ -7,7 +7,7 @@
 ## 📖 About This Repository
 This repository documents my journey from **Absolute Beginner** to **Advanced Algorithmic Thinker**. 
 
-It follows the **"Sensei Algo" Zero-Friction Method**: a structured, pattern-first approach designed specifically for **Python Developers** and **ML Engineers**. The goal is not just to memorize code, but to visualize data movement and master the underlying logic.
+It follows the **Zero-Friction Method**: a structured, pattern-first approach designed specifically for **Python Developers** and **ML Engineers**. The goal is not just to memorize code, but to visualize data movement and master the underlying logic.
 
 ---
 
